@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import projects from '../projects.json';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
 const Projects = () => {
@@ -17,9 +17,19 @@ const Projects = () => {
   return (
 <section className="flex mt-20 justify-center text-white" id='projects'>
   <div className="w-[95%] md:w-full max-w-4xl flex flex-col justify-center bg-[#2C2C2C] px-4 shadow-md py-8 rounded-xl">
-    <div>
-    <span className="w-3 items-center h-3 bg-primary inline-block rounded-full mr-2"></span>
-    <span className='text-xl text-center font-bold'>Projects</span>
+    <div className='flex justify-between'>
+      <div>
+        <span className="w-3 items-center h-3 bg-primary inline-block rounded-full mr-2"></span>
+        <span className='text-xl text-center font-bold'>Projects</span>
+      </div>
+     <a
+          href='https://github.com/KostisGrf'
+          target='_blank'
+          className="bg-[#444444] hover:bg-[#505050] text-white font-semibold px-4 py-2 rounded-md inline-flex items-center gap-1.5"
+        >
+          Check out my Github 
+          <ArrowRight size={20} />
+        </a>
     </div>
     
    
