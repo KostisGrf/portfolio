@@ -9,7 +9,7 @@ const Hero = () => {
    <section className="relative w-full min-h-[70vh] text-white" id='home'>
   <div
     className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
-    style={{ backgroundImage: "url('/src/assets/images/hero-bg8.jpg')" }}
+    style={{ backgroundImage: "url('/assets/images/hero-bg8.jpg')" }}
   />
   <div className="absolute bottom-0 left-0 w-full h-1/3 z-10 bg-gradient-to-t from-[rgba(41,44,52,1)] via-[rgba(41,44,52,0.7)] to-transparent"></div>
 

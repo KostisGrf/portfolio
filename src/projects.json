@@ -2,72 +2,65 @@
     {
     "id": 1,
     "title": "K-Cluster Hub",
-    "shortDescription": "Web K-means is a web application that can help you specify the k value of k-means clustering by utilizing the elbow method",
     "fullDescription":"K-Cluster Hub is a web app for smart clustering analysis using K-Means, K-Modes, and K-Prototypes, started as my thesis (Web K-Means) and later evolving into a published tool featured in two scientific journals.",
     "tech": ["PHP","MySQL","Python",  "jQuery","HTML","CSS","Bootstrap"],
-    "logo":"/src/assets/projects/logos/kmeans-logo.png",
-    "image": "/src/assets/projects/images/klclusterhub.png",
+    "logo":"/assets/projects/logos/kmeans-logo.png",
+    "image": "/assets/projects/images/klclusterhub.png",
     "link": "https://kclusterhub.iee.ihu.gr/",
     "github": "https://github.com/KostisGrf/WebKmeans"
   },
   {
     "id": 2,
     "title": "IEEMDB",
-    "shortDescription": "Web K-means is a web application that can help you specify the k value of k-means clustering by utilizing the elbow method",
     "fullDescription":"IEEMDB is a team project built for a university course by a 5-member team. I led the frontend (3 members) using React, implementing auth, search, watchlists, and favorites with minimal UI and smooth UX.",
     "tech": ["C#",".NET","PostgreSQL", "React"],
-    "logo":"/src/assets/projects/logos/ieemdb-logo.png",
-    "image": "/src/assets/projects/images/IEEMDB.png",
+    "logo":"/assets/projects/logos/ieemdb-logo.png",
+    "image": "/assets/projects/images/IEEMDB.png",
     "github": "https://github.com/esentis/ieemdb-adopse-2021"
   },
   {
     "id": 3,
     "title": "Quarto Board Game",
-    "shortDescription": "Web K-means is a web application that can help you specify the k value of k-means clustering by utilizing the elbow method",
     "fullDescription":"Quarto is a strategic board game where players aim to align four pieces sharing a common attribute, built for a university course, it was voted among the top 5 projects out of 40+ submissions.",
     "tech": ["PHP","MySQL","jQuery", "HTML","CSS"],
-    "logo":"/src/assets/projects/logos/quarto-logo.png",
-    "image": "/src/assets/projects/images/quarto.png",
+    "logo":"/assets/projects/logos/quarto-logo.png",
+    "image": "/assets/projects/images/quarto.png",
     "link": "https://users.it.teithe.gr/~it185174/ADISE21_Quarto_BoardGame/www/",
     "github": "https://github.com/KostisGrf/ADISE21_Quarto_BoardGame"
   },
   {
     "id": 4,
     "title": "Pharmacy Finder",
-    "shortDescription": "Web K-means is a web application that can help you specify the k value of k-means clustering by utilizing the elbow method",
     "fullDescription":"Pharmacy Finder is a native mobile app built with Flutter that helps locate pharmacies using Google Maps APIs and autocomplete. It also features functions for on-duty and nearby pharmacies.",
     "tech": ["Flutter","Dart"],
-    "logo":"/src/assets/projects/logos/PharmacyFinder-logo.png",
-    "image": "/src/assets/projects/images/pharmacyFinder.png",
+    "logo":"/assets/projects/logos/PharmacyFinder-logo.png",
+    "image": "/assets/projects/images/pharmacyFinder.png",
     "link": "https://www.youtube.com/watch?v=lpwxw9bXUoY",
     "github": "https://github.com/KostisGrf/pharmacy_finder"
   },
   {
     "id": 5,
     "title": "Pharmacy Finder Scraper",
-    "shortDescription": "Web K-means is a web application that can help you specify the k value of k-means clustering by utilizing the elbow method",
     "fullDescription":"Pharmacy Finder Scrapper is a Node.js tool that scrapes and cleans data to find on-duty pharmacies, providing the results as a JSON API used by the mobile app.",
     "tech": ["Node JS"],
-    "logo":"/src/assets/projects/logos/pharmacyScrapper-logo.png",
+    "logo":"/assets/projects/logos/pharmacyScrapper-logo.png",
     "github": "https://github.com/KostisGrf/pharmacy_finder_scraper"
   },
   {
     "id": 6,
     "title": "Hotel Reservation System",
-    "shortDescription": "Web K-means is a web application that can help you specify the k value of k-means clustering by utilizing the elbow method",
     "fullDescription":"Hotel Reservation System is a reservation manager for hotel reception to handle all hotel operations. Built as a university team project of 3 using SQL procedures and JavaFX.",
     "tech": ["Java", "PostgreSQL"],
-    "logo":"/src/assets/projects/logos/hrm_logo.png",
-    "image": "/src/assets/projects/images/hrm.png",
+    "logo":"/assets/projects/logos/hrm_logo.png",
+    "image": "/assets/projects/images/hrm.png",
     "github": "https://github.com/esentis/Hotel-Reservation-System-DBTech"
   },
    {
     "id": 7,
     "title": "Multithreaded Downloader",
-    "shortDescription": "Web K-means is a web application that can help you specify the k value of k-means clustering by utilizing the elbow method",
     "fullDescription":"Multithreaded Downloader is a Python program that downloads multiple HTML files simultaneously using threads and locks for efficient concurrency.",
     "tech": ["Python"],
-    "logo":"/src/assets/projects/logos/threads-logo.png",
+    "logo":"/assets/projects/logos/threads-logo.png",
     "github": "https://github.com/KostisGrf/multithreaded-downloader"
   }
 
