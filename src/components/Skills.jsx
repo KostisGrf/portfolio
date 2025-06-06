@@ -27,9 +27,9 @@ const Skills = () => {
         </h2>
         <div className="grid justify-center">
           
-  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
+  <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
     {skills.map((skill)=>(
-            <div className="bg-[#2C2C2C]  rounded shadow-md w-52 py-6 text-xl text-center place-items-center justify-center ">
+            <div className="bg-[#2C2C2C] w-38  rounded shadow-md sm:w-52 py-6 text-xl text-center place-items-center justify-center ">
               {skill.name}
             <img src={skill.logo} alt="" className='h-15 w-20 mt-3' />
           </div>
