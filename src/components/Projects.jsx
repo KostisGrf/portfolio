@@ -17,7 +17,7 @@ const Projects = () => {
   return (
 <section className="flex mt-20 justify-center text-white" id='projects'>
   <div className="w-[95%] md:w-full max-w-4xl flex flex-col justify-center bg-[#2C2C2C] px-4 shadow-md py-8 rounded-xl">
-    <div className='flex justify-between'>
+    <div className='flex justify-between items-center'>
       <div>
         <span className="w-3 items-center h-3 bg-primary inline-block rounded-full mr-2"></span>
         <span className='text-xl text-center font-bold'>Projects</span>
