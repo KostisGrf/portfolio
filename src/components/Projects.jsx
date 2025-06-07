@@ -35,8 +35,8 @@ const Projects = () => {
    
     <div className="w-full mt-8">
       {visibleProjects.map((project)=>(
- <Accordion sx={{ backgroundColor: '#373737', color: 'white' ,   }}>
-      <AccordionSummary sx={{ backgroundColor: '#444', color: 'white', padding:'1em' }} expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}>
+ <Accordion key={project.id} sx={{ backgroundColor: '#373737', color: 'white' ,   }}>
+      <AccordionSummary  sx={{ backgroundColor: '#444', color: 'white', padding:'1em' }} expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}>
         <div className="flex items-center gap-3">
     <div className="flex-shrink-0 bg-sky-100 p-1 rounded-full flex items-center justify-center">
       <img
@@ -45,11 +45,11 @@ const Projects = () => {
         className="h-6 w-6 rounded-full object-cover"
       />
     </div>
-    <Typography className="text-white">
+    <Typography className="text-white" component='div'>
       {project.title}
       <div className="flex flex-wrap gap-2 mt-2">
         {project.tech.map((fw)=>(
-          <span className="w-fit h-6  p-3 text-md flex items-center justify-center bg-[#2C2C2C] text-white font-bold rounded-full ">{fw}</span>
+          <span key={fw} className="w-fit h-6  p-3 text-md flex items-center justify-center bg-[#2C2C2C] text-white font-bold rounded-full ">{fw}</span>
         ))}
        
       </div>
