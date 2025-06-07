@@ -1,11 +1,9 @@
 import React from 'react'
 import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
 import projects from '../projects.json';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
@@ -45,8 +43,8 @@ const Projects = () => {
         className="h-6 w-6 rounded-full object-cover"
       />
     </div>
-    <Typography className="text-white" component='div'>
-      {project.title}
+    <Typography className="text-white " component='div'>
+     <span className='md:text-lg'>{project.title}</span>
       <div className="flex flex-wrap gap-2 mt-2">
         {project.tech.map((fw)=>(
           <span key={fw} className="w-fit h-6  p-3 text-md flex items-center justify-center bg-[#2C2C2C] text-white font-bold rounded-full ">{fw}</span>
@@ -59,7 +57,7 @@ const Projects = () => {
       </AccordionSummary>
       <AccordionDetails>
         <div className="flex flex-col items-center text-white gap-4">
-    <p className="text-sm text-gray-300 text-center">
+    <p className="md:text-lg text-center">
       {project.fullDescription}
     </p>
     {project.image &&

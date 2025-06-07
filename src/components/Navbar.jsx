@@ -39,7 +39,7 @@ const Navbar = () => {
             <h1 className="text-white text-xl font-bold font-pacifico flex items-center space-x-2">
                 <span>KostisGratsos</span>
                 <span className="w-px h-6 bg-gray-300 inline-block"></span>
-                <span className="text-primary font-roboto">Portofolio</span>
+                <span className="text-primary font-roboto">Portfolio</span>
             </h1>
              <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>

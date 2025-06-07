@@ -9,7 +9,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} KostisGratsos. All rights reserved.
             
         </p>
-        
+    
     </footer>
   )
 }

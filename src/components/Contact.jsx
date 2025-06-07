@@ -12,9 +12,6 @@ const Contact = () => {
         setTimeout(()=>setCopied(false),2000)
     }
 
-
-
-
   return (
     <section id='contact' className='mt-20 text-white flex  flex-col items-center mb-20 '>
         <h2 className='text-3xl font-bold text-center mb-4'>Get In <span className='text-primary'>Touch</span></h2>
