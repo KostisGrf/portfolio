@@ -9,8 +9,11 @@ const Hero = () => {
    <section className="relative w-full min-h-[70vh] text-white" id='home'>
   <div
     className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
-    style={{ backgroundImage: "url('/assets/images/hero-bg8.jpg')" }}
+    style={{ backgroundImage: "url('/assets/images/hero-bg9.jpg')" }}
   />
+
+  {/* Black overlay */}
+  <div className="absolute inset-0 bg-black/70 z-10" />
   <div className="absolute bottom-0 left-0 w-full h-1/3 z-10 bg-gradient-to-t from-[rgba(41,44,52,1)] via-[rgba(41,44,52,0.7)] to-transparent"></div>
 
   <div className="relative z-20 flex flex-col min-h-[70vh]">

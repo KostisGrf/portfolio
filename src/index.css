@@ -5,7 +5,7 @@
 @theme {
   --font-pacifico: Pacifico, cursive;
   --font-roboto: Roboto, sans-serif;
-  --color-primary: var(--color-sky-500);
+  --color-primary: #FFA60D;
 }
 
 body{
