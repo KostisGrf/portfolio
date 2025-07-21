@@ -7,10 +7,11 @@ const Hero = () => {
 <>
   
    <section className="relative w-full min-h-[70vh] text-white" id='home'>
-  <div
-    className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
-    style={{ backgroundImage: "url('/assets/images/hero-bg9.jpg')" }}
-  />
+  <img
+  src="/assets/images/hero-bg9.jpg"
+  alt="Hero background"
+  className="absolute inset-0 w-full h-full object-cover z-0"
+/>
 
   {/* Black overlay */}
   <div className="absolute inset-0 bg-black/70 z-10" />

@@ -9,6 +9,16 @@
     "link": "https://kclusterhub.iee.ihu.gr/",
     "github": "https://github.com/KostisGrf/WebKmeans"
   },
+    {
+    "id": 8,
+    "title": "Skinet",
+    "fullDescription":"Skinet is a full-stack e-commerce application built as part of a Udemy course, using C# with ASP.NET Core for the backend and Angular for the frontend. The app features product listings, shopping cart functionality, coupon-based discounts, and Stripe integration for payments. It also includes an admin panel for managing products, brands, categories, and processing refunds. The project is deployed on Azure with automated CI/CD pipelines using GitHub Actions.",
+    "tech": ["C#",".NET","SQL Server", "Angular"],
+    "logo":"/assets/projects/logos/skinet-logo.png",
+    "image": "/assets/projects/images/skinet.jpg",
+    "link": "https://skinet-kg.azurewebsites.net/",
+    "github": "https://github.com/KostisGrf/skinet"
+  },
   {
     "id": 2,
     "title": "IEEMDB",
